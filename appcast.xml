@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Nimbus Updates</title>
+        <link>https://raw.githubusercontent.com/Sharnabh/Nimbus-Releases/main/appcast.xml</link>
+        <description>Most recent updates for Nimbus Google Drive Client</description>
+        <language>en</language>
+        <item>
+            <title>Nimbus 1.0.0</title>
+            <pubDate>Mon, 02 Nov 2026 12:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>Nimbus 1.0.0 Release Notes</h2>
+                <ul>
+                    <li><b>macOS 26+ FSKit Support</b>: Full user-space physical filesystem via macFUSE 5.5.0.</li>
+                    <li><b>Multi-Account Disks</b>: Mount multiple Google Drive accounts concurrently into Finder.</li>
+                    <li><b>Background Menu Bar</b>: Keeps mounted drives alive 24/7 when windows are closed.</li>
+                    <li><b>Zero-Disk Engine</b>: On-demand streaming with intelligent L1 RAM and SSD caching.</li>
+                    <li><b>Sparkle Updates</b>: Automatic in-app update checks and seamless releases.</li>
+                </ul>
+            ]]></description>
+            <enclosure
+                url="https://github.com/Sharnabh/Nimbus-Releases/releases/download/v1.0.0/Nimbus.dmg"
+                sparkle:version="1"
+                sparkle:shortVersionString="1.0.0"
+                length="28971723"
+                type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>

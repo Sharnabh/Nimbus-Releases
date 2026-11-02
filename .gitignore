@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build & binary artifacts (Host large binaries in GitHub Releases)
+*.dmg
+*.zip
+*.tar.gz
+*.pkg
+
+# Sparkle temporary files
+.sparkle/

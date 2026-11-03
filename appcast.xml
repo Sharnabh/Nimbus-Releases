@@ -23,8 +23,9 @@
                 url="https://github.com/Sharnabh/Nimbus-Releases/releases/download/v1.0.0/Nimbus.dmg"
                 sparkle:version="1"
                 sparkle:shortVersionString="1.0.0"
-                length="28971723"
+                length="27916115"
                 type="application/octet-stream" />
         </item>
     </channel>
 </rss>
+
